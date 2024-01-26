@@ -1,7 +1,8 @@
 import "./App.css";
+import Button from "./components/Button";
 
 function App() {
-  // EXAMPLE OF AN OBJECTS
+  // EXAMPLE OF AN OBJECT
   const user = {
     firstName: `Mark John Allen`,
     lastName: `Nizal`,
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello, {formatName(user)}!</h1>
+      <Button />
     </div>
   );
 }

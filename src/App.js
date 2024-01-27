@@ -1,5 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
+// import ReactDOM from 'react-dom';
+import AppWithSlideshow from "./components/Slideshow";
 
 function App() {
   // EXAMPLE OF AN OBJECT
@@ -18,6 +20,7 @@ function App() {
     <div className="App">
       <h1>Hello, {formatName(user)}!</h1>
       <Button />
+      <AppWithSlideshow />
     </div>
   );
 }

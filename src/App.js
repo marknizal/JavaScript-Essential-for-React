@@ -1,26 +1,27 @@
 import "./App.css";
-import Button from "./components/Button";
-// import ReactDOM from 'react-dom';
-import AppWithSlideshow from "./components/Slideshow";
+import Homepage from "./pages/Homepage";
+// EXAMPLE OF AN OBJECT, ARRAY AND FUNCTION
 
 function App() {
-  // EXAMPLE OF AN OBJECT
   const user = {
-    firstName: `Mark John Allen`,
-    lastName: `Nizal`,
+    firstName: "Mark John Allen",
+    lastName: "Nizal",
+    age: 22,
   };
 
-  // EXAMPLE OF A FUNCTION
+  const smartphones = ["Apple", "Google Pixel", "Samsung"];
+
   const formatName = () => {
     return user.firstName + " " + user.lastName;
   };
 
-  // RENDER VALUE
   return (
     <div className="App">
-      <h1>Hello, {formatName(user)}!</h1>
-      <Button />
-      <AppWithSlideshow />
+      <p>
+        Hello, I'm {formatName(user)}, {user.age} years old and I love{" "}
+        {smartphones[1]} products
+      </p>
+      <Homepage />
     </div>
   );
 }

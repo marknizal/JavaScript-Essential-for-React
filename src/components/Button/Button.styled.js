@@ -1,4 +1,6 @@
-.button {
+import styled from "styled-components";
+
+export const MyButton = styled.button`
   background-color: white;
   border: 1px solid black;
   color: black;
@@ -10,9 +12,9 @@
   transition-duration: 0.3s;
   cursor: pointer;
   border-radius: 8px;
-}
 
-.button5:hover {
-  background-color: black;
-  color: white;
-}
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+`;

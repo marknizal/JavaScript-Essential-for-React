@@ -1,27 +1,9 @@
-// AppWithSlideshow.js
-
 import React, { useState, useEffect } from "react";
-import styled from "styled-components";
-import image1 from "../images/1.jpg";
-import image2 from "../images/2.jpg";
-import image3 from "../images/3.jpg";
 
-const SlideshowContainer = styled.div`
-  width: 100%;
-  /* max-width: 600px; */
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-`;
-
-const Slides = styled.div`
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-`;
-
-const Slide = styled.img`
-  width: 100%;
-`;
+import image1 from "../../images/1.jpg";
+import image2 from "../../images/2.jpg";
+import image3 from "../../images/3.jpg";
+import { SlideshowContainer, Slides, Slide } from "./Slideshow.styled";
 
 const Slideshow = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);

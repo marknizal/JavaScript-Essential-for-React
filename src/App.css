@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   font-size: large;
+  max-width: 968px;
+  margin: auto;
+  background-color: #f7f7f7;
 }

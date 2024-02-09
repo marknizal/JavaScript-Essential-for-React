@@ -5,6 +5,7 @@ import TernarySample from "./pages/Ternary";
 import Destructuring from "./pages/Destructuring";
 import SpreadOperator from "./pages/SpreadOperator";
 import ArrayIterators from "./pages/ArrayIterators";
+import Promises from "./pages/Promises";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <SpreadOperator />
       <hr></hr>
       <ArrayIterators />
+      <hr></hr>
+      <Promises />
     </div>
   );
 }

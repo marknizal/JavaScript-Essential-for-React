@@ -6,6 +6,8 @@ import Destructuring from "./pages/Destructuring";
 import SpreadOperator from "./pages/SpreadOperator";
 import ArrayIterators from "./pages/ArrayIterators";
 import Promises from "./pages/Promises";
+import FetchAPI from "./pages/FetchAPI";
+import AsyncAwait from "./pages/Async&Await";
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
       <ArrayIterators />
       <hr></hr>
       <Promises />
+      <hr></hr>
+      <FetchAPI />
+      <hr></hr>
+      <AsyncAwait />
     </div>
   );
 }

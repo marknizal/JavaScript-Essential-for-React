@@ -4,7 +4,7 @@ export const MyButton = styled.button`
   background-color: white;
   border: 1px solid black;
   color: black;
-  padding: 16px 32px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

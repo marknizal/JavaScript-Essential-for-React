@@ -1,7 +1,7 @@
 import { MyButton } from "./Button.styled";
 
-const Button = () => {
-  return <MyButton>APPLY NOW</MyButton>;
+const Button = ({ onClick, children }) => {
+  return <MyButton onClick={onClick}>{children}</MyButton>;
 };
 
 export default Button;

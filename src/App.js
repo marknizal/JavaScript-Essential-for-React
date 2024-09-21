@@ -29,6 +29,7 @@ function App() {
       <FetchAPI />
       <hr></hr>
       <AsyncAwait />
+      <h1>Hello</h1>
     </div>
   );
 }
